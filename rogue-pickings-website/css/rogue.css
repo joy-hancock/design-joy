@@ -1,0 +1,153 @@
+/***** BASE STYLES *****/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width:400px;
+}
+
+/***** HEADER *****/
+
+header {
+    margin: 0 auto;
+    width: 1200px;
+    border-bottom-color: #77a466;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    
+    
+}
+header h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 45px 0px 35px 0px;
+    text-transform: uppercase;
+    
+   
+
+}
+
+nav {
+    float: right;
+
+    
+}
+
+header h1 span {
+    color:#77a466;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 50px 0px 40px 0px;
+    color: #77a466;
+    font-size: 14px;
+    line-height: 23pt;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+/***** HERO *****/
+#top-section {
+    
+    
+}
+
+#top-section img {
+    border-bottom-color:#77a466;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+   
+}
+
+#top-section h2 {
+    font-size: 18px;
+    line-height: 23pt;
+    text-transform: uppercase;
+    color:#77a466
+}
+
+#top-section p {
+    font-size: 16px;
+    line-height: 25pt;
+    width: 1155px;
+}
+
+/***** ABOUT US *****/
+
+#about-us .full-width {
+    margin-top: 40px;
+    border-color: lightgrey;
+    border-width: 0.5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    
+}
+
+#about-us .third-width {
+    margin: 0 auto;
+    width: 350 px;
+    
+    
+}
+
+#about-us h3 {
+    color:#77a466;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#about-us p {
+    font-size: 16px;
+    line-height: 18pt;
+    padding-right: 72px;
+}
+
+
+
+#about-us #reviews {
+    border-left:lightgrey solid 0.5px;
+    border-right:lightgrey solid 0.5px;
+    width: 380px;
+    padding-left: 25px;
+    
+}
+
+#about-us #contact-us {
+    padding-left: 25px;
+    width: 350px;
+}
+
+
+/***** FOOTER *****/
+
+footer h2 {
+    margin-top: 30px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+footer h2 span {
+    font-family: 'Galada', cursive;
+    font-size: 23px;
+    color: #77a466;
+    text-transform: lowercase;
+}

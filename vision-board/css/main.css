@@ -1,0 +1,70 @@
+/****** BASE STYLES *****/
+
+body {
+    background-color: #E8E8E8;
+}
+
+/***** VISION BOARD *****/
+
+#vision-board {
+    
+    font-family: 'Montserrat', sans-serif;
+    height: 850px;
+    overflow: auto;
+    margin: 40px auto;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+.block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding-top: 40px;
+   
+
+}
+
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    padding-left: 40px;
+}
+
+.right-align {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.title-vb {
+    color: white;
+    font-size: 30px;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    padding: 5px;
+}
+
+.capitalize {
+    font-size: 30px;
+    text-transform: capitalize;
+}

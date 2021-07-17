@@ -1,0 +1,188 @@
+/***** BASE STYLES *****/
+body{
+    text-align: left;
+    font-family: 'Merriweather', sans-serif;
+    color: #ffffff;
+    background-color: #2555D9
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1400px;
+}
+.half-width {
+    float: left;
+    width: 700px;
+}
+
+.third-width {
+    float: left;
+    width: 33.3%;
+    text-align: left;
+}
+
+.two-third-width {
+    float: left;
+    width: 66.6%;
+    text-align: left;
+}
+
+
+/***** HEADER *****/
+
+header h1 {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header h2 {
+    clear: both;
+    color: #E8CC7D;
+    font-family: playfair-display,serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 925px;
+}
+
+
+/***** WORK *****/
+
+
+
+#work {
+    font-size: 20px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1400px;
+    clear: both;
+}
+
+
+.block {
+    box-sizing: border-box;
+    float: left;
+    padding: auto;
+    height: 500px;
+    width: 33.3%;
+}
+
+
+.image {
+    background: url('img/iguazu-photog.png');
+    background-size: cover;
+    line-height: 0;
+}
+
+/****** CONTACT *****/
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact h2 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+#contact #email-header{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -15px 10 5px 010;
+}
+
+#contact a {
+    color: #E8CC7D;
+}
+
+
+
+/*****PHOTOGRAPHY PAGE*****/
+
+.photo {
+    background-color: #E8CC7D;
+    color: #2555D9;
+}
+
+
+
+
+/*****PHOTOGRAPHY HEADER****/
+.photo header h1{
+    color:#2555D9;
+    
+}
+
+.photo header h2 {
+    color: #2555D9;
+    
+}
+
+.photo nav ul li a {
+    color: #2555D9;
+}
+
+
+.photo .column {
+    float: left;
+    margin-top: 25px;
+    padding: 5px;
+    width: 375px;
+
+}
+
+.photo .row {
+    width: 1200px;
+    margin: auto;
+}
+
+.photo .row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+
+/*****CONTACT PHOTOGRPHY*****/
+
+.photo h3 {
+    color: #2555D9;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 50px 10 5px 010;
+    padding-top: 200px;
+}
+
+
+/***** PROJECTS PAGE*****/
+
+
+
+   
+
